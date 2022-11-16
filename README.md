@@ -1,1 +1,1 @@
-# WizzAirRepository
+# WizzAir
