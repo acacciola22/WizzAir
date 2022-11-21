@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A46DD44292B7609003A81B1 /* OneWayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A46DD43292B7609003A81B1 /* OneWayView.swift */; };
+		2A46DD46292B77EC003A81B1 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A46DD45292B77EC003A81B1 /* PickerView.swift */; };
+		2ADE60EA29259C0800C91900 /* WizzAirProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE60E929259C0800C91900 /* WizzAirProjectApp.swift */; };
+		2ADE60EE29259C0900C91900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADE60ED29259C0900C91900 /* Assets.xcassets */; };
+		2ADE60F229259C0900C91900 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADE60F129259C0900C91900 /* Preview Assets.xcassets */; };
+		2ADE60F929259C9900C91900 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE60F829259C9900C91900 /* BookingView.swift */; };
+		2ADE60FC29259CCB00C91900 /* MyFligthsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE60FB29259CCB00C91900 /* MyFligthsView.swift */; };
+		2ADE60FE29259CF000C91900 /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE60FD29259CF000C91900 /* ServicesView.swift */; };
+		2ADE610029259CF700C91900 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE60FF29259CF700C91900 /* AccountView.swift */; };
+		2ADE610229259D4C00C91900 /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE610129259D4C00C91900 /* TabScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A46DD43292B7609003A81B1 /* OneWayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneWayView.swift; sourceTree = "<group>"; };
+		2A46DD45292B77EC003A81B1 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		2ADE60E629259C0800C91900 /* WizzAirProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WizzAirProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADE60E929259C0800C91900 /* WizzAirProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizzAirProjectApp.swift; sourceTree = "<group>"; };
+		2ADE60ED29259C0900C91900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2ADE60EF29259C0900C91900 /* WizzAirProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WizzAirProject.entitlements; sourceTree = "<group>"; };
+		2ADE60F129259C0900C91900 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2ADE60F829259C9900C91900 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		2ADE60FB29259CCB00C91900 /* MyFligthsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFligthsView.swift; sourceTree = "<group>"; };
+		2ADE60FD29259CF000C91900 /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		2ADE60FF29259CF700C91900 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		2ADE610129259D4C00C91900 /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ADE60E329259C0800C91900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ADE60DD29259C0800C91900 = {
+			isa = PBXGroup;
+			children = (
+				2ADE60E829259C0800C91900 /* WizzAirProject */,
+				2ADE60E729259C0800C91900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ADE60E729259C0800C91900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE60E629259C0800C91900 /* WizzAirProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ADE60E829259C0800C91900 /* WizzAirProject */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE60E929259C0800C91900 /* WizzAirProjectApp.swift */,
+				2ADE60FA29259CA100C91900 /* Tab Views */,
+				2ADE60ED29259C0900C91900 /* Assets.xcassets */,
+				2ADE60EF29259C0900C91900 /* WizzAirProject.entitlements */,
+				2ADE60F029259C0900C91900 /* Preview Content */,
+			);
+			path = WizzAirProject;
+			sourceTree = "<group>";
+		};
+		2ADE60F029259C0900C91900 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE60F129259C0900C91900 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2ADE60FA29259CA100C91900 /* Tab Views */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE610129259D4C00C91900 /* TabScreen.swift */,
+				2A46DD45292B77EC003A81B1 /* PickerView.swift */,
+				2ADE60F829259C9900C91900 /* BookingView.swift */,
+				2A46DD43292B7609003A81B1 /* OneWayView.swift */,
+				2ADE60FB29259CCB00C91900 /* MyFligthsView.swift */,
+				2ADE60FD29259CF000C91900 /* ServicesView.swift */,
+				2ADE60FF29259CF700C91900 /* AccountView.swift */,
+			);
+			path = "Tab Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ADE60E529259C0800C91900 /* WizzAirProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ADE60F529259C0900C91900 /* Build configuration list for PBXNativeTarget "WizzAirProject" */;
+			buildPhases = (
+				2ADE60E229259C0800C91900 /* Sources */,
+				2ADE60E329259C0800C91900 /* Frameworks */,
+				2ADE60E429259C0800C91900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WizzAirProject;
+			productName = WizzAirProject;
+			productReference = 2ADE60E629259C0800C91900 /* WizzAirProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ADE60DE29259C0800C91900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2ADE60E529259C0800C91900 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 2ADE60E129259C0800C91900 /* Build configuration list for PBXProject "WizzAirProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ADE60DD29259C0800C91900;
+			productRefGroup = 2ADE60E729259C0800C91900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ADE60E529259C0800C91900 /* WizzAirProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ADE60E429259C0800C91900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADE60F229259C0900C91900 /* Preview Assets.xcassets in Resources */,
+				2ADE60EE29259C0900C91900 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ADE60E229259C0800C91900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADE610029259CF700C91900 /* AccountView.swift in Sources */,
+				2ADE60FE29259CF000C91900 /* ServicesView.swift in Sources */,
+				2ADE60FC29259CCB00C91900 /* MyFligthsView.swift in Sources */,
+				2A46DD44292B7609003A81B1 /* OneWayView.swift in Sources */,
+				2A46DD46292B77EC003A81B1 /* PickerView.swift in Sources */,
+				2ADE60F929259C9900C91900 /* BookingView.swift in Sources */,
+				2ADE610229259D4C00C91900 /* TabScreen.swift in Sources */,
+				2ADE60EA29259C0800C91900 /* WizzAirProjectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2ADE60F329259C0900C91900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2ADE60F429259C0900C91900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2ADE60F629259C0900C91900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WizzAirProject/WizzAirProject.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WizzAirProject/Preview Content\"";
+				DEVELOPMENT_TEAM = C5XTRXCLV8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = antonia.WizzAirProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2ADE60F729259C0900C91900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WizzAirProject/WizzAirProject.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WizzAirProject/Preview Content\"";
+				DEVELOPMENT_TEAM = C5XTRXCLV8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = antonia.WizzAirProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ADE60E129259C0800C91900 /* Build configuration list for PBXProject "WizzAirProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADE60F329259C0900C91900 /* Debug */,
+				2ADE60F429259C0900C91900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ADE60F529259C0900C91900 /* Build configuration list for PBXNativeTarget "WizzAirProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADE60F629259C0900C91900 /* Debug */,
+				2ADE60F729259C0900C91900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ADE60DE29259C0800C91900 /* Project object */;
+}
