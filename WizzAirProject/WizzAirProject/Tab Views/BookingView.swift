@@ -62,6 +62,7 @@ struct BookingView: View {
                 }
             }
         }.frame(height: 295)
+               
                 .scrollContentBackground(.hidden)
                 .background(Color("Sfondo"))
                
